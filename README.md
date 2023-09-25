@@ -16,7 +16,7 @@ Here is the fully usable script library for Unity.
 
 ---
 
-## What is unity?
+## What is Unity?
 
 **Unity** is a **game and simulation development platform** widely used in the interactive software industry. Founded in 2005, **Unity Technologies** created Unity, a **cross-platform game engine** that allows developers to create 2D, 3D, virtual reality (VR) and augmented reality (AR) games for a wide range of platforms, including PCs, consoles, mobile devices and even Web platforms.
 
