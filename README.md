@@ -14,7 +14,7 @@ Here is the fully usable script library for Unity.
 4. Create your own script and write "using (libraryname)" at the beginning of your script
 5. That's it! Now you can use the functions! Make sure to read the documentation for each script to learn how to use the functions!
 
-NOTE: "using (libraryname)" must be written without quotation marks, without parentheses, and with the name of the library to be used instead of "libraryname"
+*NOTE: "using (libraryname)" must be written without quotation marks, without brackets, and with the name of the library to be used instead of "libraryname"*
 
 ---
 
