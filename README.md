@@ -8,10 +8,10 @@ Here is the fully usable script library for Unity.
 - Visual Studio 2022 Community + "Game Development with Unity" extension
 
 **STEP-BY-STEP GUIDE**
-1. Open your Unity project
-2. Choose a script contained in this repository
-3. Download the script and place it within your project
-4. Create your own script and write *using libraryname* at the beginning of your script
+1. Download this repository
+2. Open your Unity project
+3. Choose a script (file.cs) and place it inside your ASSETS folder
+4. Create your own script and write *using libraryname* at the beginning of your script to implement the library
 5. That's it! Now you can use the functions! Make sure to read the documentation for each script to learn how to use the functions!
 
 ---
