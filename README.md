@@ -1,6 +1,21 @@
 # UnityLibrary
 Here is the fully usable script library for Unity.
 
+## GUIDE
+
+**REQUIREMENTS**
+- Unity Engine v2021.3.4f1 or higher
+- Visual Studio 2022 Community + "Game Development with Unity" extension
+
+**STEP-BY-STEP GUIDE**
+1. Open your Unity project
+2. Choose a script contained in this repository
+3. Download the script and place it within your project
+4. Create your own script and write "using <nomelibrary>" at the beginning of your script
+5. That's it! Now you can use the functions! Make sure to read the documentation for each script to learn how to use the functions!
+
+---
+
 ## What is unity?
 
 **Unity** is a **game and simulation development platform** widely used in the interactive software industry. Founded in 2005, **Unity Technologies** created Unity, a **cross-platform game engine** that allows developers to create 2D, 3D, virtual reality (VR) and augmented reality (AR) games for a wide range of platforms, including PCs, consoles, mobile devices and even Web platforms.
@@ -15,7 +30,7 @@ A **script** is a set of instructions or commands written in a specific programm
 
 ## Then... what is UnityLibrary?
 
-**UnityLibrary** is a **GitHUB repository** containing lots of abstract scripts that can be reused in your game projects to speed up development. The scripts are free and tested.
+**UnityLibrary** is a **GitHUB repository** containing lots of libraries that can be reused in your game projects to speed up development. The scripts are free and tested.
 
 
 
