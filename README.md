@@ -1,5 +1,5 @@
 # UnityLibrary
-Here is the Unity script library, containing many reusable scripts within the game engine.
+Here is the fully usable script library for Unity.
 
 ## What is unity?
 
