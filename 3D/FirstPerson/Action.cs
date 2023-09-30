@@ -6,20 +6,8 @@ namespace ActionTools
     /// <summary>
     /// A class for managing interactable objects in the scene.
     /// </summary>
-    public class Action
+    public static class Action
     {
-        // Collection of strings containing interactable tags
-        private List<string> interactableTags = new List<string>();
-
-        /// <summary>
-        /// Adds interactable tags to the collection.
-        /// </summary>
-        /// <param name="tags">An array of tags to add to the collection.</param>
-        public void AddInteractableTags(string[] tags)
-        {
-            interactableTags.AddRange(tags);
-        }
-
         /// <summary>
         /// Checks if the object pointed at is interactable.
         /// </summary>
