@@ -9,7 +9,7 @@ This is a collection of my libraries that I have used for my projects on Unity.
 
 Key features of Unity include its **flexibility, ease of use and ability to support game creation for a wide range of devices and operating systems.** Developers can write game code using **C# or JavaScript**, and Unity offers an integrated development environment (IDE) that simplifies design, programming, asset creation, and project management.
 
-Unity has been widely adopted by both independent developers and large game development studios and has been used to create a number of popular and successful games. In addition to games, Unity is also used to develop simulations, training applications, AR/VR experiences, architectural designs, and more. Its versatility and active developer community make it a favorite platform for creating interactive content in a variety of areas." -source [<span style="color:#0984e3">Wikipedia</span>](https://en.wikipedia.org/wiki/Unity_(game_engine))
+Unity has been widely adopted by both independent developers and large game development studios and has been used to create a number of popular and successful games. In addition to games, Unity is also used to develop simulations, training applications, AR/VR experiences, architectural designs, and more. Its versatility and active developer community make it a favorite platform for creating interactive content in a variety of areas." -[<span style="color:#0984e3">Wikipedia</span>](https://en.wikipedia.org/wiki/Unity_(game_engine))
 
 ## What is a script?
 
