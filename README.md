@@ -1,5 +1,5 @@
 # UnityLibrary
-Here is the fully usable script library for Unity.
+This is a collection of my libraries that I have used for my projects on Unity.
 
 ## GUIDE
 
@@ -30,7 +30,7 @@ A **script** is a set of instructions or commands written in a specific programm
 
 ## Then... what is UnityLibrary?
 
-**UnityLibrary** is a **GitHUB repository** containing lots of libraries that can be reused in your game projects to speed up development. The scripts are free and tested.
+**UnityLibrary** is a **GitHUB repository** containing lots of libraries that can be reused in your game projects to speed up your game development.
 
 
 
