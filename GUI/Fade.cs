@@ -26,6 +26,7 @@ namespace FadeTools
             // Takes the color that the raw image must assume
             Color targetColor = new Color(initialColor.r, initialColor.g, initialColor.b, 1f);
 
+            // While elapsedTime < duration, execute a Mathf.Lerp function to change over time the alpha of the screen till elapsedTime reaches duration
             while (elapsedTime < duration)
             {
                 float alpha = Mathf.Lerp(0f, 1f, elapsedTime / duration);
@@ -54,6 +55,7 @@ namespace FadeTools
             // Takes the color that the raw image must assume
             Color targetColor = new Color(initialColor.r, initialColor.g, initialColor.b, 0f); // Sets alpha to 0 to make it completely transparent
 
+            // While elapsedTime < duration, execute a Mathf.Lerp function to change over time the alpha of the screen till elapsedTime reaches duration
             while (elapsedTime < duration)
             {
                 float alpha = Mathf.Lerp(1f, 0f, elapsedTime / duration);
