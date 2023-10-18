@@ -13,11 +13,11 @@ Unity has been widely adopted by both independent developers and large game deve
 
 ## What is a script?
 
-A **script** is a set of instructions or commands written in a specific programming language to perform a set of tasks or automate certain actions within a software or computer system. Scripts are used in a wide range of contexts, including software development, systems administration, process automation and more...
+A **script** is a set of instructions or commands written in a specific programming language to perform a set of tasks or automate certain actions within a software or computer system.
 
 ## Then... what is UnityLibrary?
 
-**UnityLibrary** is a **GitHUB repository** containing lots of libraries I have personally used in my own projects and make available to everyone.
+**UnityLibrary** is a **GitHUB repository** containing a simple file with lots of libraries I have personally used in my own projects and make available to everyone.
 
 
 
