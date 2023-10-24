@@ -106,22 +106,22 @@ namespace UnityLibrary
                 float elapsedTime = 0f;
 
                 // Takes the initial color of the raw image
-                Color initialColor = rawImage.color;
+                UnityEngine.Color initialColor = rawImage.color;
 
                 // Takes the color that the raw image must assume
-                Color targetColor = new Color(initialColor.r, initialColor.g, initialColor.b, 1f);
+                UnityEngine.Color targetColor = new UnityEngine.Color(initialColor.r, initialColor.g, initialColor.b, 1f);
 
                 // While elapsedTime < duration, execute a Mathf.Lerp function to change over time the alpha of the screen till elapsedTime reaches duration
                 while (elapsedTime < duration)
                 {
                     float alpha = Mathf.Lerp(0f, 1f, elapsedTime / duration);
-                    rawImage.color = new Color(targetColor.r, targetColor.g, targetColor.b, alpha);
+                    rawImage.color = new UnityEngine.Color(targetColor.r, targetColor.g, targetColor.b, alpha);
                     elapsedTime += Time.deltaTime;
                     yield return null;
                 }
 
                 // Make sure the final alpha color assumed by the image is 1f
-                rawImage.color = new Color(targetColor.r, targetColor.g, targetColor.b, 1f);
+                rawImage.color = new UnityEngine.Color(targetColor.r, targetColor.g, targetColor.b, 1f);
             }
 
             /// <summary>
@@ -135,22 +135,22 @@ namespace UnityLibrary
                 float elapsedTime = 0f;
 
                 // Takes the initial color of the raw image
-                Color initialColor = rawImage.color;
+                UnityEngine.Color initialColor = rawImage.color;
 
                 // Takes the color that the raw image must assume
-                Color targetColor = new Color(initialColor.r, initialColor.g, initialColor.b, 0f); // Sets alpha to 0 to make it completely transparent
+                UnityEngine.Color targetColor = new UnityEngine.Color(initialColor.r, initialColor.g, initialColor.b, 0f); // Sets alpha to 0 to make it completely transparent
 
                 // While elapsedTime < duration, execute a Mathf.Lerp function to change over time the alpha of the screen till elapsedTime reaches duration
                 while (elapsedTime < duration)
                 {
                     float alpha = Mathf.Lerp(1f, 0f, elapsedTime / duration);
-                    rawImage.color = new Color(targetColor.r, targetColor.g, targetColor.b, alpha);
+                    rawImage.color = new UnityEngine.Color(targetColor.r, targetColor.g, targetColor.b, alpha);
                     elapsedTime += Time.deltaTime;
                     yield return null;
                 }
 
                 // Make sure the final alpha color assumed by the image is 0f
-                rawImage.color = new Color(targetColor.r, targetColor.g, targetColor.b, 0f);
+                rawImage.color = new UnityEngine.Color(targetColor.r, targetColor.g, targetColor.b, 0f);
             }
         }
     }
