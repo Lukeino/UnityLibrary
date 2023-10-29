@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -25,7 +25,7 @@ namespace UnityLibrary
             public static void SaveTags(List<string> tags)
             {
                 BinaryFormatter formatter = new BinaryFormatter();
-                string filePath = Application.persistentDataPath + "/tags.dat";
+                string filePath = UnityEngine.Application.persistentDataPath + "/tags.dat";
                 FileStream fileStream = new FileStream(filePath, FileMode.Create);
 
                 formatter.Serialize(fileStream, tags);
@@ -70,7 +70,7 @@ namespace UnityLibrary
             /// <returns>The list of tags loaded from the file.</returns>
             private static List<string> LoadTags()
             {
-                string filePath = Application.persistentDataPath + "/tags.dat";
+                string filePath = UnityEngine.Application.persistentDataPath + "/tags.dat";
                 if (File.Exists(filePath))
                 {
                     BinaryFormatter formatter = new BinaryFormatter();
@@ -81,7 +81,7 @@ namespace UnityLibrary
                 }
                 else
                 {
-                    Debug.LogError("Save file not found.");
+                    UnityEngine.Debug.LogError("Save file not found.");
                     return new List<string>();
                 }
             }
