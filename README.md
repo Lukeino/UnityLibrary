@@ -16,40 +16,9 @@ UnityLibrary è una libreria di utilità per Unity che fornisce strumenti per ge
     git clone https://github.com/tuo-username/UnityActionFadeUtils.git
     ```
 
-2. Importa la cartella del progetto in Unity.
+2. Importa la cartella del progetto nel tuo progetto di Unity.
 
-## Utilizzo
-
-### Salvataggio di Tag
-
-```csharp
-using UnityLibrary.ActionTools;
-
-List<string> tags = new List<string> { "Interactable", "Enemy", "Ally" };
-Action.SaveTags(tags);
-```
-
-### Controllo di oggetti interattivi
-
-```csharp
-using UnityLibrary.ActionTools;
-
-int tagIndex;
-bool isInteractable = Action.IsObjectInteractable(out tagIndex, 10f);
-```
-
-### Effetti di fading
-
-```csharp
-using UnityLibrary.FadeTools;
-using UnityEngine.UI;
-
-// Fade In
-StartCoroutine(Fade.FadeIn(myRawImage, 2f));
-
-// Fade Out
-StartCoroutine(Fade.FadeOut(myRawImage, 2f));
-```
+3. Leggi la documentazione.
 
 
 
