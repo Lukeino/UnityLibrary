@@ -27,6 +27,29 @@ using UnityLibrary.ActionTools;
 
 List<string> tags = new List<string> { "Interactable", "Enemy", "Ally" };
 Action.SaveTags(tags);
+```
+
+### Controllo di oggetti interattivi
+
+```csharp
+using UnityLibrary.ActionTools;
+
+int tagIndex;
+bool isInteractable = Action.IsObjectInteractable(out tagIndex, 10f);
+```
+
+### Effetti di fading
+
+```csharp
+using UnityLibrary.FadeTools;
+using UnityEngine.UI;
+
+// Fade In
+StartCoroutine(Fade.FadeIn(myRawImage, 2f));
+
+// Fade Out
+StartCoroutine(Fade.FadeOut(myRawImage, 2f));
+```
 
 
 
