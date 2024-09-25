@@ -13,7 +13,7 @@ UnityLibrary è una libreria di utilità per Unity che fornisce strumenti per ge
 
 1. Clona la repository:
     ```sh
-    git clone https://github.com/tuo-username/UnityLibrary.git
+    git clone https://github.com/Lukeino/UnityLibrary.git
     ```
 
 2. Importa la cartella del progetto nel tuo progetto di Unity.
