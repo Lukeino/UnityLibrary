@@ -1,6 +1,6 @@
 # UnityLibrary
 
-UnityLibrary è una libreria di utilità per Unity che fornisce strumenti per gestire oggetti interattivi nella scene, applicare effetti di fading a RawImage e altro ancora...
+UnityLibrary è una libreria di utilità per Unity che fornisce strumenti per gestire oggetti interattivi nella scene (in prima persona), applicare effetti di fading a RawImage e altro ancora...
 
 ## Caratteristiche
 
