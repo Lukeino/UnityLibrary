@@ -2,7 +2,7 @@
 
 UnityLibrary is a utility library for Unity that provides tools to manage interactive objects in first-person scenes, apply fading effects to RawImages, and more...
 
-## Caratteristiche
+## Features
 
 - Saving and loading tags from a binary file.
 - Interactive object control via raycasting.
