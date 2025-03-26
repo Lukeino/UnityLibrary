@@ -1,24 +1,24 @@
 # UnityLibrary
 
-UnityLibrary è una libreria di utilità per Unity che fornisce strumenti per gestire oggetti interattivi nella scene (in prima persona), applicare effetti di fading a RawImage e altro ancora...
+UnityLibrary is a utility library for Unity that provides tools to manage interactive objects in first-person scenes, apply fading effects to RawImages, and more...
 
 ## Caratteristiche
 
-- Salvataggio e caricamento di tag in un file binario.
-- Controllo di oggetti interattivi tramite raycasting.
-- Effetti di fade-in e fade-out per `RawImage`.
-- altro...
+- Saving and loading tags from a binary file.
+- Interactive object control via raycasting.
+- Fade-in and fade-out effects for `RawImage`
+- More...
 
-## Installazione
+## Installation
 
-1. Clona la repository:
+1. Clone the repository:
     ```sh
     git clone https://github.com/Lukeino/UnityLibrary.git
     ```
 
-2. Importa la cartella del progetto nel tuo progetto di Unity.
+2. Import the project folder into your Unity project.
 
-3. Leggi la documentazione.
+3. Read the documentation.
 
 
 
